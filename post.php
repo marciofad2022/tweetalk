@@ -1,6 +1,6 @@
 <?php
 		$email = $_GET['email'];
-		$user = $_GET['user'];
+		$user = $_GET['usuario'];
 		
 		require_once('classes/profile.php');
 		$perfil = new perfil();
