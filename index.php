@@ -55,14 +55,14 @@
 				}
 				
 				
-				if(isset($_GET['msg'])){
+				if(isset($_GET['mensagem'])){
 					echo "<div align='center' style='margin-top: 30px;'>
 						<span style='color:#0c0; font-size: 30px; font-weight: 700'>
 						Usuário Cadastrado - Faça seu Login</span></div>";
 
 				}
 				
-				if(isset($_GET['cadastro'])){
+				if(isset($_GET['cadastrar'])){
 					echo "<div align='center' style='margin-top: 30px;'>
 						<span style='color:#f00; font-size: 30px; font-weight: 700'>
 						Erro - Usuário já existe!</span></div>";
